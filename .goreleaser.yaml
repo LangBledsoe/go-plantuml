@@ -46,6 +46,9 @@ changelog:
       - "^test:"
 
 release:
+  github:
+    owner: LangBledsoe
+    name: go-plantuml
   footer: >-
 
     ---
