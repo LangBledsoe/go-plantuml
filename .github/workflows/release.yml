@@ -19,7 +19,6 @@ jobs:
         with:
           go-version: 1.19
           cache: true
-      - run: go mod tidy
       - uses: goreleaser/goreleaser-action@v2
         with:
           version: latest
